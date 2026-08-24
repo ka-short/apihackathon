@@ -1,0 +1,1273 @@
+company,column,source,is_real
+Sea Limited,ai_earnings_mentions,calibrated,no
+Sea Limited,ai_job_pct,calibrated,no
+Sea Limited,ai_patent_count,calibrated,no
+Sea Limited,board_independence_pct,calibrated,no
+Sea Limited,board_independence_pct_trend,calibrated,no
+Sea Limited,company,calibrated,no
+Sea Limited,company_stage,calibrated,no
+Sea Limited,controversy_flags_12mo,calibrated,no
+Sea Limited,controversy_flags_e,calibrated,no
+Sea Limited,controversy_flags_g,calibrated,no
+Sea Limited,controversy_flags_s,calibrated,no
+Sea Limited,controversy_intensity_e,calibrated,no
+Sea Limited,controversy_intensity_g,calibrated,no
+Sea Limited,controversy_intensity_s,calibrated,no
+Sea Limited,country,calibrated,no
+Sea Limited,data_source,calibrated,no
+Sea Limited,diversity_women_pct,calibrated,no
+Sea Limited,diversity_women_pct_trend,calibrated,no
+Sea Limited,emissions_intensity,calibrated,no
+Sea Limited,emissions_intensity_trend,calibrated,no
+Sea Limited,employee_sentiment_trend,calibrated,no
+Sea Limited,env_fines_12mo,calibrated,no
+Sea Limited,esg_cagr_5yr,calibrated,no
+Sea Limited,esg_e_cagr,calibrated,no
+Sea Limited,esg_e_today,calibrated,no
+Sea Limited,esg_g_cagr,calibrated,no
+Sea Limited,esg_g_today,calibrated,no
+Sea Limited,esg_s_cagr,calibrated,no
+Sea Limited,esg_s_today,calibrated,no
+Sea Limited,esg_score_5yr_ago,calibrated,no
+Sea Limited,esg_score_today,calibrated,no
+Sea Limited,exec_turnover_12mo,calibrated,no
+Sea Limited,green_capex_pct,calibrated,no
+Sea Limited,green_capex_pct_trend,calibrated,no
+Sea Limited,hires_6mo,calibrated,no
+Sea Limited,hires_growth,calibrated,no
+Sea Limited,hires_per_m_rev,calibrated,no
+Sea Limited,hires_prev_6mo,calibrated,no
+Sea Limited,insider_sell_ratio,calibrated,no
+Sea Limited,labour_controversy_12mo,calibrated,no
+Sea Limited,litigation_actions_12mo,calibrated,no
+Sea Limited,pb_ratio,calibrated,no
+Sea Limited,pe_ratio,calibrated,no
+Sea Limited,renewable_pct,calibrated,no
+Sea Limited,renewable_pct_trend,calibrated,no
+Sea Limited,rev_growth_yoy,calibrated,no
+Sea Limited,revenue_usd_b,calibrated,no
+Sea Limited,say_do_gap,calibrated,no
+Sea Limited,sector,calibrated,no
+Sea Limited,sentiment_score,calibrated,no
+Sea Limited,sentiment_trend,calibrated,no
+Sea Limited,stated_commitments,calibrated,no
+Sea Limited,ticker,calibrated,no
+Grab Holdings,ai_earnings_mentions,calibrated,no
+Grab Holdings,ai_job_pct,calibrated,no
+Grab Holdings,ai_patent_count,calibrated,no
+Grab Holdings,board_independence_pct,calibrated,no
+Grab Holdings,board_independence_pct_trend,calibrated,no
+Grab Holdings,company,calibrated,no
+Grab Holdings,company_stage,calibrated,no
+Grab Holdings,controversy_flags_12mo,calibrated,no
+Grab Holdings,controversy_flags_e,calibrated,no
+Grab Holdings,controversy_flags_g,calibrated,no
+Grab Holdings,controversy_flags_s,calibrated,no
+Grab Holdings,controversy_intensity_e,calibrated,no
+Grab Holdings,controversy_intensity_g,calibrated,no
+Grab Holdings,controversy_intensity_s,calibrated,no
+Grab Holdings,country,calibrated,no
+Grab Holdings,data_source,calibrated,no
+Grab Holdings,diversity_women_pct,calibrated,no
+Grab Holdings,diversity_women_pct_trend,calibrated,no
+Grab Holdings,emissions_intensity,calibrated,no
+Grab Holdings,emissions_intensity_trend,calibrated,no
+Grab Holdings,employee_sentiment_trend,calibrated,no
+Grab Holdings,env_fines_12mo,calibrated,no
+Grab Holdings,esg_cagr_5yr,calibrated,no
+Grab Holdings,esg_e_cagr,calibrated,no
+Grab Holdings,esg_e_today,calibrated,no
+Grab Holdings,esg_g_cagr,calibrated,no
+Grab Holdings,esg_g_today,calibrated,no
+Grab Holdings,esg_s_cagr,calibrated,no
+Grab Holdings,esg_s_today,calibrated,no
+Grab Holdings,esg_score_5yr_ago,calibrated,no
+Grab Holdings,esg_score_today,calibrated,no
+Grab Holdings,exec_turnover_12mo,calibrated,no
+Grab Holdings,green_capex_pct,calibrated,no
+Grab Holdings,green_capex_pct_trend,calibrated,no
+Grab Holdings,hires_6mo,calibrated,no
+Grab Holdings,hires_growth,calibrated,no
+Grab Holdings,hires_per_m_rev,calibrated,no
+Grab Holdings,hires_prev_6mo,calibrated,no
+Grab Holdings,insider_sell_ratio,calibrated,no
+Grab Holdings,labour_controversy_12mo,calibrated,no
+Grab Holdings,litigation_actions_12mo,calibrated,no
+Grab Holdings,pb_ratio,calibrated,no
+Grab Holdings,pe_ratio,calibrated,no
+Grab Holdings,renewable_pct,calibrated,no
+Grab Holdings,renewable_pct_trend,calibrated,no
+Grab Holdings,rev_growth_yoy,calibrated,no
+Grab Holdings,revenue_usd_b,calibrated,no
+Grab Holdings,say_do_gap,calibrated,no
+Grab Holdings,sector,calibrated,no
+Grab Holdings,sentiment_score,calibrated,no
+Grab Holdings,sentiment_trend,calibrated,no
+Grab Holdings,stated_commitments,calibrated,no
+Grab Holdings,ticker,calibrated,no
+GoTo Group,ai_earnings_mentions,calibrated,no
+GoTo Group,ai_job_pct,calibrated,no
+GoTo Group,ai_patent_count,calibrated,no
+GoTo Group,board_independence_pct,calibrated,no
+GoTo Group,board_independence_pct_trend,calibrated,no
+GoTo Group,company,calibrated,no
+GoTo Group,company_stage,calibrated,no
+GoTo Group,controversy_flags_12mo,calibrated,no
+GoTo Group,controversy_flags_e,calibrated,no
+GoTo Group,controversy_flags_g,calibrated,no
+GoTo Group,controversy_flags_s,calibrated,no
+GoTo Group,controversy_intensity_e,calibrated,no
+GoTo Group,controversy_intensity_g,calibrated,no
+GoTo Group,controversy_intensity_s,calibrated,no
+GoTo Group,country,calibrated,no
+GoTo Group,data_source,calibrated,no
+GoTo Group,diversity_women_pct,calibrated,no
+GoTo Group,diversity_women_pct_trend,calibrated,no
+GoTo Group,emissions_intensity,calibrated,no
+GoTo Group,emissions_intensity_trend,calibrated,no
+GoTo Group,employee_sentiment_trend,calibrated,no
+GoTo Group,env_fines_12mo,calibrated,no
+GoTo Group,esg_cagr_5yr,calibrated,no
+GoTo Group,esg_e_cagr,calibrated,no
+GoTo Group,esg_e_today,calibrated,no
+GoTo Group,esg_g_cagr,calibrated,no
+GoTo Group,esg_g_today,calibrated,no
+GoTo Group,esg_s_cagr,calibrated,no
+GoTo Group,esg_s_today,calibrated,no
+GoTo Group,esg_score_5yr_ago,calibrated,no
+GoTo Group,esg_score_today,calibrated,no
+GoTo Group,exec_turnover_12mo,calibrated,no
+GoTo Group,green_capex_pct,calibrated,no
+GoTo Group,green_capex_pct_trend,calibrated,no
+GoTo Group,hires_6mo,calibrated,no
+GoTo Group,hires_growth,calibrated,no
+GoTo Group,hires_per_m_rev,calibrated,no
+GoTo Group,hires_prev_6mo,calibrated,no
+GoTo Group,insider_sell_ratio,calibrated,no
+GoTo Group,labour_controversy_12mo,calibrated,no
+GoTo Group,litigation_actions_12mo,calibrated,no
+GoTo Group,pb_ratio,calibrated,no
+GoTo Group,pe_ratio,calibrated,no
+GoTo Group,renewable_pct,calibrated,no
+GoTo Group,renewable_pct_trend,calibrated,no
+GoTo Group,rev_growth_yoy,calibrated,no
+GoTo Group,revenue_usd_b,calibrated,no
+GoTo Group,say_do_gap,calibrated,no
+GoTo Group,sector,calibrated,no
+GoTo Group,sentiment_score,calibrated,no
+GoTo Group,sentiment_trend,calibrated,no
+GoTo Group,stated_commitments,calibrated,no
+GoTo Group,ticker,calibrated,no
+FPT Corporation,ai_earnings_mentions,calibrated,no
+FPT Corporation,ai_job_pct,calibrated,no
+FPT Corporation,ai_patent_count,calibrated,no
+FPT Corporation,board_independence_pct,calibrated,no
+FPT Corporation,board_independence_pct_trend,calibrated,no
+FPT Corporation,company,calibrated,no
+FPT Corporation,company_stage,calibrated,no
+FPT Corporation,controversy_flags_12mo,calibrated,no
+FPT Corporation,controversy_flags_e,calibrated,no
+FPT Corporation,controversy_flags_g,calibrated,no
+FPT Corporation,controversy_flags_s,calibrated,no
+FPT Corporation,controversy_intensity_e,calibrated,no
+FPT Corporation,controversy_intensity_g,calibrated,no
+FPT Corporation,controversy_intensity_s,calibrated,no
+FPT Corporation,country,calibrated,no
+FPT Corporation,data_source,calibrated,no
+FPT Corporation,diversity_women_pct,calibrated,no
+FPT Corporation,diversity_women_pct_trend,calibrated,no
+FPT Corporation,emissions_intensity,calibrated,no
+FPT Corporation,emissions_intensity_trend,calibrated,no
+FPT Corporation,employee_sentiment_trend,calibrated,no
+FPT Corporation,env_fines_12mo,calibrated,no
+FPT Corporation,esg_cagr_5yr,calibrated,no
+FPT Corporation,esg_e_cagr,calibrated,no
+FPT Corporation,esg_e_today,calibrated,no
+FPT Corporation,esg_g_cagr,calibrated,no
+FPT Corporation,esg_g_today,calibrated,no
+FPT Corporation,esg_s_cagr,calibrated,no
+FPT Corporation,esg_s_today,calibrated,no
+FPT Corporation,esg_score_5yr_ago,calibrated,no
+FPT Corporation,esg_score_today,calibrated,no
+FPT Corporation,exec_turnover_12mo,calibrated,no
+FPT Corporation,green_capex_pct,calibrated,no
+FPT Corporation,green_capex_pct_trend,calibrated,no
+FPT Corporation,hires_6mo,calibrated,no
+FPT Corporation,hires_growth,calibrated,no
+FPT Corporation,hires_per_m_rev,calibrated,no
+FPT Corporation,hires_prev_6mo,calibrated,no
+FPT Corporation,insider_sell_ratio,calibrated,no
+FPT Corporation,labour_controversy_12mo,calibrated,no
+FPT Corporation,litigation_actions_12mo,calibrated,no
+FPT Corporation,pb_ratio,calibrated,no
+FPT Corporation,pe_ratio,calibrated,no
+FPT Corporation,renewable_pct,calibrated,no
+FPT Corporation,renewable_pct_trend,calibrated,no
+FPT Corporation,rev_growth_yoy,calibrated,no
+FPT Corporation,revenue_usd_b,calibrated,no
+FPT Corporation,say_do_gap,calibrated,no
+FPT Corporation,sector,calibrated,no
+FPT Corporation,sentiment_score,calibrated,no
+FPT Corporation,sentiment_trend,calibrated,no
+FPT Corporation,stated_commitments,calibrated,no
+FPT Corporation,ticker,calibrated,no
+Vingroup,ai_earnings_mentions,calibrated,no
+Vingroup,ai_job_pct,calibrated,no
+Vingroup,ai_patent_count,calibrated,no
+Vingroup,board_independence_pct,calibrated,no
+Vingroup,board_independence_pct_trend,calibrated,no
+Vingroup,company,calibrated,no
+Vingroup,company_stage,calibrated,no
+Vingroup,controversy_flags_12mo,calibrated,no
+Vingroup,controversy_flags_e,calibrated,no
+Vingroup,controversy_flags_g,calibrated,no
+Vingroup,controversy_flags_s,calibrated,no
+Vingroup,controversy_intensity_e,calibrated,no
+Vingroup,controversy_intensity_g,calibrated,no
+Vingroup,controversy_intensity_s,calibrated,no
+Vingroup,country,calibrated,no
+Vingroup,data_source,calibrated,no
+Vingroup,diversity_women_pct,calibrated,no
+Vingroup,diversity_women_pct_trend,calibrated,no
+Vingroup,emissions_intensity,calibrated,no
+Vingroup,emissions_intensity_trend,calibrated,no
+Vingroup,employee_sentiment_trend,calibrated,no
+Vingroup,env_fines_12mo,calibrated,no
+Vingroup,esg_cagr_5yr,calibrated,no
+Vingroup,esg_e_cagr,calibrated,no
+Vingroup,esg_e_today,calibrated,no
+Vingroup,esg_g_cagr,calibrated,no
+Vingroup,esg_g_today,calibrated,no
+Vingroup,esg_s_cagr,calibrated,no
+Vingroup,esg_s_today,calibrated,no
+Vingroup,esg_score_5yr_ago,calibrated,no
+Vingroup,esg_score_today,calibrated,no
+Vingroup,exec_turnover_12mo,calibrated,no
+Vingroup,green_capex_pct,calibrated,no
+Vingroup,green_capex_pct_trend,calibrated,no
+Vingroup,hires_6mo,calibrated,no
+Vingroup,hires_growth,calibrated,no
+Vingroup,hires_per_m_rev,calibrated,no
+Vingroup,hires_prev_6mo,calibrated,no
+Vingroup,insider_sell_ratio,calibrated,no
+Vingroup,labour_controversy_12mo,calibrated,no
+Vingroup,litigation_actions_12mo,calibrated,no
+Vingroup,pb_ratio,calibrated,no
+Vingroup,pe_ratio,calibrated,no
+Vingroup,renewable_pct,calibrated,no
+Vingroup,renewable_pct_trend,calibrated,no
+Vingroup,rev_growth_yoy,calibrated,no
+Vingroup,revenue_usd_b,calibrated,no
+Vingroup,say_do_gap,calibrated,no
+Vingroup,sector,calibrated,no
+Vingroup,sentiment_score,calibrated,no
+Vingroup,sentiment_trend,calibrated,no
+Vingroup,stated_commitments,calibrated,no
+Vingroup,ticker,calibrated,no
+PLDT,ai_earnings_mentions,calibrated,no
+PLDT,ai_job_pct,calibrated,no
+PLDT,ai_patent_count,calibrated,no
+PLDT,board_independence_pct,calibrated,no
+PLDT,board_independence_pct_trend,calibrated,no
+PLDT,company,calibrated,no
+PLDT,company_stage,calibrated,no
+PLDT,controversy_flags_12mo,calibrated,no
+PLDT,controversy_flags_e,calibrated,no
+PLDT,controversy_flags_g,calibrated,no
+PLDT,controversy_flags_s,calibrated,no
+PLDT,controversy_intensity_e,calibrated,no
+PLDT,controversy_intensity_g,calibrated,no
+PLDT,controversy_intensity_s,calibrated,no
+PLDT,country,calibrated,no
+PLDT,data_source,calibrated,no
+PLDT,diversity_women_pct,calibrated,no
+PLDT,diversity_women_pct_trend,calibrated,no
+PLDT,emissions_intensity,calibrated,no
+PLDT,emissions_intensity_trend,calibrated,no
+PLDT,employee_sentiment_trend,calibrated,no
+PLDT,env_fines_12mo,calibrated,no
+PLDT,esg_cagr_5yr,calibrated,no
+PLDT,esg_e_cagr,calibrated,no
+PLDT,esg_e_today,calibrated,no
+PLDT,esg_g_cagr,calibrated,no
+PLDT,esg_g_today,calibrated,no
+PLDT,esg_s_cagr,calibrated,no
+PLDT,esg_s_today,calibrated,no
+PLDT,esg_score_5yr_ago,calibrated,no
+PLDT,esg_score_today,calibrated,no
+PLDT,exec_turnover_12mo,calibrated,no
+PLDT,green_capex_pct,calibrated,no
+PLDT,green_capex_pct_trend,calibrated,no
+PLDT,hires_6mo,calibrated,no
+PLDT,hires_growth,calibrated,no
+PLDT,hires_per_m_rev,calibrated,no
+PLDT,hires_prev_6mo,calibrated,no
+PLDT,insider_sell_ratio,calibrated,no
+PLDT,labour_controversy_12mo,calibrated,no
+PLDT,litigation_actions_12mo,calibrated,no
+PLDT,pb_ratio,calibrated,no
+PLDT,pe_ratio,calibrated,no
+PLDT,renewable_pct,calibrated,no
+PLDT,renewable_pct_trend,calibrated,no
+PLDT,rev_growth_yoy,calibrated,no
+PLDT,revenue_usd_b,calibrated,no
+PLDT,say_do_gap,calibrated,no
+PLDT,sector,calibrated,no
+PLDT,sentiment_score,calibrated,no
+PLDT,sentiment_trend,calibrated,no
+PLDT,stated_commitments,calibrated,no
+PLDT,ticker,calibrated,no
+DBS Group,ai_earnings_mentions,calibrated,no
+DBS Group,ai_job_pct,calibrated,no
+DBS Group,ai_patent_count,calibrated,no
+DBS Group,board_independence_pct,calibrated,no
+DBS Group,board_independence_pct_trend,calibrated,no
+DBS Group,company,calibrated,no
+DBS Group,company_stage,calibrated,no
+DBS Group,controversy_flags_12mo,calibrated,no
+DBS Group,controversy_flags_e,calibrated,no
+DBS Group,controversy_flags_g,calibrated,no
+DBS Group,controversy_flags_s,calibrated,no
+DBS Group,controversy_intensity_e,calibrated,no
+DBS Group,controversy_intensity_g,calibrated,no
+DBS Group,controversy_intensity_s,calibrated,no
+DBS Group,country,calibrated,no
+DBS Group,data_source,calibrated,no
+DBS Group,diversity_women_pct,calibrated,no
+DBS Group,diversity_women_pct_trend,calibrated,no
+DBS Group,emissions_intensity,calibrated,no
+DBS Group,emissions_intensity_trend,calibrated,no
+DBS Group,employee_sentiment_trend,calibrated,no
+DBS Group,env_fines_12mo,calibrated,no
+DBS Group,esg_cagr_5yr,calibrated,no
+DBS Group,esg_e_cagr,calibrated,no
+DBS Group,esg_e_today,calibrated,no
+DBS Group,esg_g_cagr,calibrated,no
+DBS Group,esg_g_today,calibrated,no
+DBS Group,esg_s_cagr,calibrated,no
+DBS Group,esg_s_today,calibrated,no
+DBS Group,esg_score_5yr_ago,calibrated,no
+DBS Group,esg_score_today,calibrated,no
+DBS Group,exec_turnover_12mo,calibrated,no
+DBS Group,green_capex_pct,calibrated,no
+DBS Group,green_capex_pct_trend,calibrated,no
+DBS Group,hires_6mo,calibrated,no
+DBS Group,hires_growth,calibrated,no
+DBS Group,hires_per_m_rev,calibrated,no
+DBS Group,hires_prev_6mo,calibrated,no
+DBS Group,insider_sell_ratio,calibrated,no
+DBS Group,labour_controversy_12mo,calibrated,no
+DBS Group,litigation_actions_12mo,calibrated,no
+DBS Group,pb_ratio,calibrated,no
+DBS Group,pe_ratio,calibrated,no
+DBS Group,renewable_pct,calibrated,no
+DBS Group,renewable_pct_trend,calibrated,no
+DBS Group,rev_growth_yoy,calibrated,no
+DBS Group,revenue_usd_b,calibrated,no
+DBS Group,say_do_gap,calibrated,no
+DBS Group,sector,calibrated,no
+DBS Group,sentiment_score,calibrated,no
+DBS Group,sentiment_trend,calibrated,no
+DBS Group,stated_commitments,calibrated,no
+DBS Group,ticker,calibrated,no
+CapitaLand Invest,ai_earnings_mentions,calibrated,no
+CapitaLand Invest,ai_job_pct,calibrated,no
+CapitaLand Invest,ai_patent_count,calibrated,no
+CapitaLand Invest,board_independence_pct,calibrated,no
+CapitaLand Invest,board_independence_pct_trend,calibrated,no
+CapitaLand Invest,company,calibrated,no
+CapitaLand Invest,company_stage,calibrated,no
+CapitaLand Invest,controversy_flags_12mo,calibrated,no
+CapitaLand Invest,controversy_flags_e,calibrated,no
+CapitaLand Invest,controversy_flags_g,calibrated,no
+CapitaLand Invest,controversy_flags_s,calibrated,no
+CapitaLand Invest,controversy_intensity_e,calibrated,no
+CapitaLand Invest,controversy_intensity_g,calibrated,no
+CapitaLand Invest,controversy_intensity_s,calibrated,no
+CapitaLand Invest,country,calibrated,no
+CapitaLand Invest,data_source,calibrated,no
+CapitaLand Invest,diversity_women_pct,calibrated,no
+CapitaLand Invest,diversity_women_pct_trend,calibrated,no
+CapitaLand Invest,emissions_intensity,calibrated,no
+CapitaLand Invest,emissions_intensity_trend,calibrated,no
+CapitaLand Invest,employee_sentiment_trend,calibrated,no
+CapitaLand Invest,env_fines_12mo,calibrated,no
+CapitaLand Invest,esg_cagr_5yr,calibrated,no
+CapitaLand Invest,esg_e_cagr,calibrated,no
+CapitaLand Invest,esg_e_today,calibrated,no
+CapitaLand Invest,esg_g_cagr,calibrated,no
+CapitaLand Invest,esg_g_today,calibrated,no
+CapitaLand Invest,esg_s_cagr,calibrated,no
+CapitaLand Invest,esg_s_today,calibrated,no
+CapitaLand Invest,esg_score_5yr_ago,calibrated,no
+CapitaLand Invest,esg_score_today,calibrated,no
+CapitaLand Invest,exec_turnover_12mo,calibrated,no
+CapitaLand Invest,green_capex_pct,calibrated,no
+CapitaLand Invest,green_capex_pct_trend,calibrated,no
+CapitaLand Invest,hires_6mo,calibrated,no
+CapitaLand Invest,hires_growth,calibrated,no
+CapitaLand Invest,hires_per_m_rev,calibrated,no
+CapitaLand Invest,hires_prev_6mo,calibrated,no
+CapitaLand Invest,insider_sell_ratio,calibrated,no
+CapitaLand Invest,labour_controversy_12mo,calibrated,no
+CapitaLand Invest,litigation_actions_12mo,calibrated,no
+CapitaLand Invest,pb_ratio,calibrated,no
+CapitaLand Invest,pe_ratio,calibrated,no
+CapitaLand Invest,renewable_pct,calibrated,no
+CapitaLand Invest,renewable_pct_trend,calibrated,no
+CapitaLand Invest,rev_growth_yoy,calibrated,no
+CapitaLand Invest,revenue_usd_b,calibrated,no
+CapitaLand Invest,say_do_gap,calibrated,no
+CapitaLand Invest,sector,calibrated,no
+CapitaLand Invest,sentiment_score,calibrated,no
+CapitaLand Invest,sentiment_trend,calibrated,no
+CapitaLand Invest,stated_commitments,calibrated,no
+CapitaLand Invest,ticker,calibrated,no
+CIMB Group,ai_earnings_mentions,calibrated,no
+CIMB Group,ai_job_pct,calibrated,no
+CIMB Group,ai_patent_count,calibrated,no
+CIMB Group,board_independence_pct,calibrated,no
+CIMB Group,board_independence_pct_trend,calibrated,no
+CIMB Group,company,calibrated,no
+CIMB Group,company_stage,calibrated,no
+CIMB Group,controversy_flags_12mo,calibrated,no
+CIMB Group,controversy_flags_e,calibrated,no
+CIMB Group,controversy_flags_g,calibrated,no
+CIMB Group,controversy_flags_s,calibrated,no
+CIMB Group,controversy_intensity_e,calibrated,no
+CIMB Group,controversy_intensity_g,calibrated,no
+CIMB Group,controversy_intensity_s,calibrated,no
+CIMB Group,country,calibrated,no
+CIMB Group,data_source,calibrated,no
+CIMB Group,diversity_women_pct,calibrated,no
+CIMB Group,diversity_women_pct_trend,calibrated,no
+CIMB Group,emissions_intensity,calibrated,no
+CIMB Group,emissions_intensity_trend,calibrated,no
+CIMB Group,employee_sentiment_trend,calibrated,no
+CIMB Group,env_fines_12mo,calibrated,no
+CIMB Group,esg_cagr_5yr,calibrated,no
+CIMB Group,esg_e_cagr,calibrated,no
+CIMB Group,esg_e_today,calibrated,no
+CIMB Group,esg_g_cagr,calibrated,no
+CIMB Group,esg_g_today,calibrated,no
+CIMB Group,esg_s_cagr,calibrated,no
+CIMB Group,esg_s_today,calibrated,no
+CIMB Group,esg_score_5yr_ago,calibrated,no
+CIMB Group,esg_score_today,calibrated,no
+CIMB Group,exec_turnover_12mo,calibrated,no
+CIMB Group,green_capex_pct,calibrated,no
+CIMB Group,green_capex_pct_trend,calibrated,no
+CIMB Group,hires_6mo,calibrated,no
+CIMB Group,hires_growth,calibrated,no
+CIMB Group,hires_per_m_rev,calibrated,no
+CIMB Group,hires_prev_6mo,calibrated,no
+CIMB Group,insider_sell_ratio,calibrated,no
+CIMB Group,labour_controversy_12mo,calibrated,no
+CIMB Group,litigation_actions_12mo,calibrated,no
+CIMB Group,pb_ratio,calibrated,no
+CIMB Group,pe_ratio,calibrated,no
+CIMB Group,renewable_pct,calibrated,no
+CIMB Group,renewable_pct_trend,calibrated,no
+CIMB Group,rev_growth_yoy,calibrated,no
+CIMB Group,revenue_usd_b,calibrated,no
+CIMB Group,say_do_gap,calibrated,no
+CIMB Group,sector,calibrated,no
+CIMB Group,sentiment_score,calibrated,no
+CIMB Group,sentiment_trend,calibrated,no
+CIMB Group,stated_commitments,calibrated,no
+CIMB Group,ticker,calibrated,no
+Bank Central Asia,ai_earnings_mentions,calibrated,no
+Bank Central Asia,ai_job_pct,calibrated,no
+Bank Central Asia,ai_patent_count,calibrated,no
+Bank Central Asia,board_independence_pct,calibrated,no
+Bank Central Asia,board_independence_pct_trend,calibrated,no
+Bank Central Asia,company,calibrated,no
+Bank Central Asia,company_stage,calibrated,no
+Bank Central Asia,controversy_flags_12mo,calibrated,no
+Bank Central Asia,controversy_flags_e,calibrated,no
+Bank Central Asia,controversy_flags_g,calibrated,no
+Bank Central Asia,controversy_flags_s,calibrated,no
+Bank Central Asia,controversy_intensity_e,calibrated,no
+Bank Central Asia,controversy_intensity_g,calibrated,no
+Bank Central Asia,controversy_intensity_s,calibrated,no
+Bank Central Asia,country,calibrated,no
+Bank Central Asia,data_source,calibrated,no
+Bank Central Asia,diversity_women_pct,calibrated,no
+Bank Central Asia,diversity_women_pct_trend,calibrated,no
+Bank Central Asia,emissions_intensity,calibrated,no
+Bank Central Asia,emissions_intensity_trend,calibrated,no
+Bank Central Asia,employee_sentiment_trend,calibrated,no
+Bank Central Asia,env_fines_12mo,calibrated,no
+Bank Central Asia,esg_cagr_5yr,calibrated,no
+Bank Central Asia,esg_e_cagr,calibrated,no
+Bank Central Asia,esg_e_today,calibrated,no
+Bank Central Asia,esg_g_cagr,calibrated,no
+Bank Central Asia,esg_g_today,calibrated,no
+Bank Central Asia,esg_s_cagr,calibrated,no
+Bank Central Asia,esg_s_today,calibrated,no
+Bank Central Asia,esg_score_5yr_ago,calibrated,no
+Bank Central Asia,esg_score_today,calibrated,no
+Bank Central Asia,exec_turnover_12mo,calibrated,no
+Bank Central Asia,green_capex_pct,calibrated,no
+Bank Central Asia,green_capex_pct_trend,calibrated,no
+Bank Central Asia,hires_6mo,calibrated,no
+Bank Central Asia,hires_growth,calibrated,no
+Bank Central Asia,hires_per_m_rev,calibrated,no
+Bank Central Asia,hires_prev_6mo,calibrated,no
+Bank Central Asia,insider_sell_ratio,calibrated,no
+Bank Central Asia,labour_controversy_12mo,calibrated,no
+Bank Central Asia,litigation_actions_12mo,calibrated,no
+Bank Central Asia,pb_ratio,calibrated,no
+Bank Central Asia,pe_ratio,calibrated,no
+Bank Central Asia,renewable_pct,calibrated,no
+Bank Central Asia,renewable_pct_trend,calibrated,no
+Bank Central Asia,rev_growth_yoy,calibrated,no
+Bank Central Asia,revenue_usd_b,calibrated,no
+Bank Central Asia,say_do_gap,calibrated,no
+Bank Central Asia,sector,calibrated,no
+Bank Central Asia,sentiment_score,calibrated,no
+Bank Central Asia,sentiment_trend,calibrated,no
+Bank Central Asia,stated_commitments,calibrated,no
+Bank Central Asia,ticker,calibrated,no
+Kasikornbank,ai_earnings_mentions,calibrated,no
+Kasikornbank,ai_job_pct,calibrated,no
+Kasikornbank,ai_patent_count,calibrated,no
+Kasikornbank,board_independence_pct,calibrated,no
+Kasikornbank,board_independence_pct_trend,calibrated,no
+Kasikornbank,company,calibrated,no
+Kasikornbank,company_stage,calibrated,no
+Kasikornbank,controversy_flags_12mo,calibrated,no
+Kasikornbank,controversy_flags_e,calibrated,no
+Kasikornbank,controversy_flags_g,calibrated,no
+Kasikornbank,controversy_flags_s,calibrated,no
+Kasikornbank,controversy_intensity_e,calibrated,no
+Kasikornbank,controversy_intensity_g,calibrated,no
+Kasikornbank,controversy_intensity_s,calibrated,no
+Kasikornbank,country,calibrated,no
+Kasikornbank,data_source,calibrated,no
+Kasikornbank,diversity_women_pct,calibrated,no
+Kasikornbank,diversity_women_pct_trend,calibrated,no
+Kasikornbank,emissions_intensity,calibrated,no
+Kasikornbank,emissions_intensity_trend,calibrated,no
+Kasikornbank,employee_sentiment_trend,calibrated,no
+Kasikornbank,env_fines_12mo,calibrated,no
+Kasikornbank,esg_cagr_5yr,calibrated,no
+Kasikornbank,esg_e_cagr,calibrated,no
+Kasikornbank,esg_e_today,calibrated,no
+Kasikornbank,esg_g_cagr,calibrated,no
+Kasikornbank,esg_g_today,calibrated,no
+Kasikornbank,esg_s_cagr,calibrated,no
+Kasikornbank,esg_s_today,calibrated,no
+Kasikornbank,esg_score_5yr_ago,calibrated,no
+Kasikornbank,esg_score_today,calibrated,no
+Kasikornbank,exec_turnover_12mo,calibrated,no
+Kasikornbank,green_capex_pct,calibrated,no
+Kasikornbank,green_capex_pct_trend,calibrated,no
+Kasikornbank,hires_6mo,calibrated,no
+Kasikornbank,hires_growth,calibrated,no
+Kasikornbank,hires_per_m_rev,calibrated,no
+Kasikornbank,hires_prev_6mo,calibrated,no
+Kasikornbank,insider_sell_ratio,calibrated,no
+Kasikornbank,labour_controversy_12mo,calibrated,no
+Kasikornbank,litigation_actions_12mo,calibrated,no
+Kasikornbank,pb_ratio,calibrated,no
+Kasikornbank,pe_ratio,calibrated,no
+Kasikornbank,renewable_pct,calibrated,no
+Kasikornbank,renewable_pct_trend,calibrated,no
+Kasikornbank,rev_growth_yoy,calibrated,no
+Kasikornbank,revenue_usd_b,calibrated,no
+Kasikornbank,say_do_gap,calibrated,no
+Kasikornbank,sector,calibrated,no
+Kasikornbank,sentiment_score,calibrated,no
+Kasikornbank,sentiment_trend,calibrated,no
+Kasikornbank,stated_commitments,calibrated,no
+Kasikornbank,ticker,calibrated,no
+Maybank,ai_earnings_mentions,calibrated,no
+Maybank,ai_job_pct,calibrated,no
+Maybank,ai_patent_count,calibrated,no
+Maybank,board_independence_pct,calibrated,no
+Maybank,board_independence_pct_trend,calibrated,no
+Maybank,company,calibrated,no
+Maybank,company_stage,calibrated,no
+Maybank,controversy_flags_12mo,calibrated,no
+Maybank,controversy_flags_e,calibrated,no
+Maybank,controversy_flags_g,calibrated,no
+Maybank,controversy_flags_s,calibrated,no
+Maybank,controversy_intensity_e,calibrated,no
+Maybank,controversy_intensity_g,calibrated,no
+Maybank,controversy_intensity_s,calibrated,no
+Maybank,country,calibrated,no
+Maybank,data_source,calibrated,no
+Maybank,diversity_women_pct,calibrated,no
+Maybank,diversity_women_pct_trend,calibrated,no
+Maybank,emissions_intensity,calibrated,no
+Maybank,emissions_intensity_trend,calibrated,no
+Maybank,employee_sentiment_trend,calibrated,no
+Maybank,env_fines_12mo,calibrated,no
+Maybank,esg_cagr_5yr,calibrated,no
+Maybank,esg_e_cagr,calibrated,no
+Maybank,esg_e_today,calibrated,no
+Maybank,esg_g_cagr,calibrated,no
+Maybank,esg_g_today,calibrated,no
+Maybank,esg_s_cagr,calibrated,no
+Maybank,esg_s_today,calibrated,no
+Maybank,esg_score_5yr_ago,calibrated,no
+Maybank,esg_score_today,calibrated,no
+Maybank,exec_turnover_12mo,calibrated,no
+Maybank,green_capex_pct,calibrated,no
+Maybank,green_capex_pct_trend,calibrated,no
+Maybank,hires_6mo,calibrated,no
+Maybank,hires_growth,calibrated,no
+Maybank,hires_per_m_rev,calibrated,no
+Maybank,hires_prev_6mo,calibrated,no
+Maybank,insider_sell_ratio,calibrated,no
+Maybank,labour_controversy_12mo,calibrated,no
+Maybank,litigation_actions_12mo,calibrated,no
+Maybank,pb_ratio,calibrated,no
+Maybank,pe_ratio,calibrated,no
+Maybank,renewable_pct,calibrated,no
+Maybank,renewable_pct_trend,calibrated,no
+Maybank,rev_growth_yoy,calibrated,no
+Maybank,revenue_usd_b,calibrated,no
+Maybank,say_do_gap,calibrated,no
+Maybank,sector,calibrated,no
+Maybank,sentiment_score,calibrated,no
+Maybank,sentiment_trend,calibrated,no
+Maybank,stated_commitments,calibrated,no
+Maybank,ticker,calibrated,no
+Siam Cement (SCG),ai_earnings_mentions,calibrated,no
+Siam Cement (SCG),ai_job_pct,calibrated,no
+Siam Cement (SCG),ai_patent_count,calibrated,no
+Siam Cement (SCG),board_independence_pct,calibrated,no
+Siam Cement (SCG),board_independence_pct_trend,calibrated,no
+Siam Cement (SCG),company,calibrated,no
+Siam Cement (SCG),company_stage,calibrated,no
+Siam Cement (SCG),controversy_flags_12mo,calibrated,no
+Siam Cement (SCG),controversy_flags_e,calibrated,no
+Siam Cement (SCG),controversy_flags_g,calibrated,no
+Siam Cement (SCG),controversy_flags_s,calibrated,no
+Siam Cement (SCG),controversy_intensity_e,calibrated,no
+Siam Cement (SCG),controversy_intensity_g,calibrated,no
+Siam Cement (SCG),controversy_intensity_s,calibrated,no
+Siam Cement (SCG),country,calibrated,no
+Siam Cement (SCG),data_source,calibrated,no
+Siam Cement (SCG),diversity_women_pct,calibrated,no
+Siam Cement (SCG),diversity_women_pct_trend,calibrated,no
+Siam Cement (SCG),emissions_intensity,calibrated,no
+Siam Cement (SCG),emissions_intensity_trend,calibrated,no
+Siam Cement (SCG),employee_sentiment_trend,calibrated,no
+Siam Cement (SCG),env_fines_12mo,calibrated,no
+Siam Cement (SCG),esg_cagr_5yr,calibrated,no
+Siam Cement (SCG),esg_e_cagr,calibrated,no
+Siam Cement (SCG),esg_e_today,calibrated,no
+Siam Cement (SCG),esg_g_cagr,calibrated,no
+Siam Cement (SCG),esg_g_today,calibrated,no
+Siam Cement (SCG),esg_s_cagr,calibrated,no
+Siam Cement (SCG),esg_s_today,calibrated,no
+Siam Cement (SCG),esg_score_5yr_ago,calibrated,no
+Siam Cement (SCG),esg_score_today,calibrated,no
+Siam Cement (SCG),exec_turnover_12mo,calibrated,no
+Siam Cement (SCG),green_capex_pct,calibrated,no
+Siam Cement (SCG),green_capex_pct_trend,calibrated,no
+Siam Cement (SCG),hires_6mo,calibrated,no
+Siam Cement (SCG),hires_growth,calibrated,no
+Siam Cement (SCG),hires_per_m_rev,calibrated,no
+Siam Cement (SCG),hires_prev_6mo,calibrated,no
+Siam Cement (SCG),insider_sell_ratio,calibrated,no
+Siam Cement (SCG),labour_controversy_12mo,calibrated,no
+Siam Cement (SCG),litigation_actions_12mo,calibrated,no
+Siam Cement (SCG),pb_ratio,calibrated,no
+Siam Cement (SCG),pe_ratio,calibrated,no
+Siam Cement (SCG),renewable_pct,calibrated,no
+Siam Cement (SCG),renewable_pct_trend,calibrated,no
+Siam Cement (SCG),rev_growth_yoy,calibrated,no
+Siam Cement (SCG),revenue_usd_b,calibrated,no
+Siam Cement (SCG),say_do_gap,calibrated,no
+Siam Cement (SCG),sector,calibrated,no
+Siam Cement (SCG),sentiment_score,calibrated,no
+Siam Cement (SCG),sentiment_trend,calibrated,no
+Siam Cement (SCG),stated_commitments,calibrated,no
+Siam Cement (SCG),ticker,calibrated,no
+Astra International,ai_earnings_mentions,calibrated,no
+Astra International,ai_job_pct,calibrated,no
+Astra International,ai_patent_count,calibrated,no
+Astra International,board_independence_pct,calibrated,no
+Astra International,board_independence_pct_trend,calibrated,no
+Astra International,company,calibrated,no
+Astra International,company_stage,calibrated,no
+Astra International,controversy_flags_12mo,calibrated,no
+Astra International,controversy_flags_e,calibrated,no
+Astra International,controversy_flags_g,calibrated,no
+Astra International,controversy_flags_s,calibrated,no
+Astra International,controversy_intensity_e,calibrated,no
+Astra International,controversy_intensity_g,calibrated,no
+Astra International,controversy_intensity_s,calibrated,no
+Astra International,country,calibrated,no
+Astra International,data_source,calibrated,no
+Astra International,diversity_women_pct,calibrated,no
+Astra International,diversity_women_pct_trend,calibrated,no
+Astra International,emissions_intensity,calibrated,no
+Astra International,emissions_intensity_trend,calibrated,no
+Astra International,employee_sentiment_trend,calibrated,no
+Astra International,env_fines_12mo,calibrated,no
+Astra International,esg_cagr_5yr,calibrated,no
+Astra International,esg_e_cagr,calibrated,no
+Astra International,esg_e_today,calibrated,no
+Astra International,esg_g_cagr,calibrated,no
+Astra International,esg_g_today,calibrated,no
+Astra International,esg_s_cagr,calibrated,no
+Astra International,esg_s_today,calibrated,no
+Astra International,esg_score_5yr_ago,calibrated,no
+Astra International,esg_score_today,calibrated,no
+Astra International,exec_turnover_12mo,calibrated,no
+Astra International,green_capex_pct,calibrated,no
+Astra International,green_capex_pct_trend,calibrated,no
+Astra International,hires_6mo,calibrated,no
+Astra International,hires_growth,calibrated,no
+Astra International,hires_per_m_rev,calibrated,no
+Astra International,hires_prev_6mo,calibrated,no
+Astra International,insider_sell_ratio,calibrated,no
+Astra International,labour_controversy_12mo,calibrated,no
+Astra International,litigation_actions_12mo,calibrated,no
+Astra International,pb_ratio,calibrated,no
+Astra International,pe_ratio,calibrated,no
+Astra International,renewable_pct,calibrated,no
+Astra International,renewable_pct_trend,calibrated,no
+Astra International,rev_growth_yoy,calibrated,no
+Astra International,revenue_usd_b,calibrated,no
+Astra International,say_do_gap,calibrated,no
+Astra International,sector,calibrated,no
+Astra International,sentiment_score,calibrated,no
+Astra International,sentiment_trend,calibrated,no
+Astra International,stated_commitments,calibrated,no
+Astra International,ticker,calibrated,no
+Singtel,ai_earnings_mentions,calibrated,no
+Singtel,ai_job_pct,calibrated,no
+Singtel,ai_patent_count,calibrated,no
+Singtel,board_independence_pct,calibrated,no
+Singtel,board_independence_pct_trend,calibrated,no
+Singtel,company,calibrated,no
+Singtel,company_stage,calibrated,no
+Singtel,controversy_flags_12mo,calibrated,no
+Singtel,controversy_flags_e,calibrated,no
+Singtel,controversy_flags_g,calibrated,no
+Singtel,controversy_flags_s,calibrated,no
+Singtel,controversy_intensity_e,calibrated,no
+Singtel,controversy_intensity_g,calibrated,no
+Singtel,controversy_intensity_s,calibrated,no
+Singtel,country,calibrated,no
+Singtel,data_source,calibrated,no
+Singtel,diversity_women_pct,calibrated,no
+Singtel,diversity_women_pct_trend,calibrated,no
+Singtel,emissions_intensity,calibrated,no
+Singtel,emissions_intensity_trend,calibrated,no
+Singtel,employee_sentiment_trend,calibrated,no
+Singtel,env_fines_12mo,calibrated,no
+Singtel,esg_cagr_5yr,calibrated,no
+Singtel,esg_e_cagr,calibrated,no
+Singtel,esg_e_today,calibrated,no
+Singtel,esg_g_cagr,calibrated,no
+Singtel,esg_g_today,calibrated,no
+Singtel,esg_s_cagr,calibrated,no
+Singtel,esg_s_today,calibrated,no
+Singtel,esg_score_5yr_ago,calibrated,no
+Singtel,esg_score_today,calibrated,no
+Singtel,exec_turnover_12mo,calibrated,no
+Singtel,green_capex_pct,calibrated,no
+Singtel,green_capex_pct_trend,calibrated,no
+Singtel,hires_6mo,calibrated,no
+Singtel,hires_growth,calibrated,no
+Singtel,hires_per_m_rev,calibrated,no
+Singtel,hires_prev_6mo,calibrated,no
+Singtel,insider_sell_ratio,calibrated,no
+Singtel,labour_controversy_12mo,calibrated,no
+Singtel,litigation_actions_12mo,calibrated,no
+Singtel,pb_ratio,calibrated,no
+Singtel,pe_ratio,calibrated,no
+Singtel,renewable_pct,calibrated,no
+Singtel,renewable_pct_trend,calibrated,no
+Singtel,rev_growth_yoy,calibrated,no
+Singtel,revenue_usd_b,calibrated,no
+Singtel,say_do_gap,calibrated,no
+Singtel,sector,calibrated,no
+Singtel,sentiment_score,calibrated,no
+Singtel,sentiment_trend,calibrated,no
+Singtel,stated_commitments,calibrated,no
+Singtel,ticker,calibrated,no
+Tenaga Nasional,ai_earnings_mentions,calibrated,no
+Tenaga Nasional,ai_job_pct,calibrated,no
+Tenaga Nasional,ai_patent_count,calibrated,no
+Tenaga Nasional,board_independence_pct,calibrated,no
+Tenaga Nasional,board_independence_pct_trend,calibrated,no
+Tenaga Nasional,company,calibrated,no
+Tenaga Nasional,company_stage,calibrated,no
+Tenaga Nasional,controversy_flags_12mo,calibrated,no
+Tenaga Nasional,controversy_flags_e,calibrated,no
+Tenaga Nasional,controversy_flags_g,calibrated,no
+Tenaga Nasional,controversy_flags_s,calibrated,no
+Tenaga Nasional,controversy_intensity_e,calibrated,no
+Tenaga Nasional,controversy_intensity_g,calibrated,no
+Tenaga Nasional,controversy_intensity_s,calibrated,no
+Tenaga Nasional,country,calibrated,no
+Tenaga Nasional,data_source,calibrated,no
+Tenaga Nasional,diversity_women_pct,calibrated,no
+Tenaga Nasional,diversity_women_pct_trend,calibrated,no
+Tenaga Nasional,emissions_intensity,calibrated,no
+Tenaga Nasional,emissions_intensity_trend,calibrated,no
+Tenaga Nasional,employee_sentiment_trend,calibrated,no
+Tenaga Nasional,env_fines_12mo,calibrated,no
+Tenaga Nasional,esg_cagr_5yr,calibrated,no
+Tenaga Nasional,esg_e_cagr,calibrated,no
+Tenaga Nasional,esg_e_today,calibrated,no
+Tenaga Nasional,esg_g_cagr,calibrated,no
+Tenaga Nasional,esg_g_today,calibrated,no
+Tenaga Nasional,esg_s_cagr,calibrated,no
+Tenaga Nasional,esg_s_today,calibrated,no
+Tenaga Nasional,esg_score_5yr_ago,calibrated,no
+Tenaga Nasional,esg_score_today,calibrated,no
+Tenaga Nasional,exec_turnover_12mo,calibrated,no
+Tenaga Nasional,green_capex_pct,calibrated,no
+Tenaga Nasional,green_capex_pct_trend,calibrated,no
+Tenaga Nasional,hires_6mo,calibrated,no
+Tenaga Nasional,hires_growth,calibrated,no
+Tenaga Nasional,hires_per_m_rev,calibrated,no
+Tenaga Nasional,hires_prev_6mo,calibrated,no
+Tenaga Nasional,insider_sell_ratio,calibrated,no
+Tenaga Nasional,labour_controversy_12mo,calibrated,no
+Tenaga Nasional,litigation_actions_12mo,calibrated,no
+Tenaga Nasional,pb_ratio,calibrated,no
+Tenaga Nasional,pe_ratio,calibrated,no
+Tenaga Nasional,renewable_pct,calibrated,no
+Tenaga Nasional,renewable_pct_trend,calibrated,no
+Tenaga Nasional,rev_growth_yoy,calibrated,no
+Tenaga Nasional,revenue_usd_b,calibrated,no
+Tenaga Nasional,say_do_gap,calibrated,no
+Tenaga Nasional,sector,calibrated,no
+Tenaga Nasional,sentiment_score,calibrated,no
+Tenaga Nasional,sentiment_trend,calibrated,no
+Tenaga Nasional,stated_commitments,calibrated,no
+Tenaga Nasional,ticker,calibrated,no
+Airports of Thailand,ai_earnings_mentions,calibrated,no
+Airports of Thailand,ai_job_pct,calibrated,no
+Airports of Thailand,ai_patent_count,calibrated,no
+Airports of Thailand,board_independence_pct,calibrated,no
+Airports of Thailand,board_independence_pct_trend,calibrated,no
+Airports of Thailand,company,calibrated,no
+Airports of Thailand,company_stage,calibrated,no
+Airports of Thailand,controversy_flags_12mo,calibrated,no
+Airports of Thailand,controversy_flags_e,calibrated,no
+Airports of Thailand,controversy_flags_g,calibrated,no
+Airports of Thailand,controversy_flags_s,calibrated,no
+Airports of Thailand,controversy_intensity_e,calibrated,no
+Airports of Thailand,controversy_intensity_g,calibrated,no
+Airports of Thailand,controversy_intensity_s,calibrated,no
+Airports of Thailand,country,calibrated,no
+Airports of Thailand,data_source,calibrated,no
+Airports of Thailand,diversity_women_pct,calibrated,no
+Airports of Thailand,diversity_women_pct_trend,calibrated,no
+Airports of Thailand,emissions_intensity,calibrated,no
+Airports of Thailand,emissions_intensity_trend,calibrated,no
+Airports of Thailand,employee_sentiment_trend,calibrated,no
+Airports of Thailand,env_fines_12mo,calibrated,no
+Airports of Thailand,esg_cagr_5yr,calibrated,no
+Airports of Thailand,esg_e_cagr,calibrated,no
+Airports of Thailand,esg_e_today,calibrated,no
+Airports of Thailand,esg_g_cagr,calibrated,no
+Airports of Thailand,esg_g_today,calibrated,no
+Airports of Thailand,esg_s_cagr,calibrated,no
+Airports of Thailand,esg_s_today,calibrated,no
+Airports of Thailand,esg_score_5yr_ago,calibrated,no
+Airports of Thailand,esg_score_today,calibrated,no
+Airports of Thailand,exec_turnover_12mo,calibrated,no
+Airports of Thailand,green_capex_pct,calibrated,no
+Airports of Thailand,green_capex_pct_trend,calibrated,no
+Airports of Thailand,hires_6mo,calibrated,no
+Airports of Thailand,hires_growth,calibrated,no
+Airports of Thailand,hires_per_m_rev,calibrated,no
+Airports of Thailand,hires_prev_6mo,calibrated,no
+Airports of Thailand,insider_sell_ratio,calibrated,no
+Airports of Thailand,labour_controversy_12mo,calibrated,no
+Airports of Thailand,litigation_actions_12mo,calibrated,no
+Airports of Thailand,pb_ratio,calibrated,no
+Airports of Thailand,pe_ratio,calibrated,no
+Airports of Thailand,renewable_pct,calibrated,no
+Airports of Thailand,renewable_pct_trend,calibrated,no
+Airports of Thailand,rev_growth_yoy,calibrated,no
+Airports of Thailand,revenue_usd_b,calibrated,no
+Airports of Thailand,say_do_gap,calibrated,no
+Airports of Thailand,sector,calibrated,no
+Airports of Thailand,sentiment_score,calibrated,no
+Airports of Thailand,sentiment_trend,calibrated,no
+Airports of Thailand,stated_commitments,calibrated,no
+Airports of Thailand,ticker,calibrated,no
+Telkom Indonesia,ai_earnings_mentions,calibrated,no
+Telkom Indonesia,ai_job_pct,calibrated,no
+Telkom Indonesia,ai_patent_count,calibrated,no
+Telkom Indonesia,board_independence_pct,calibrated,no
+Telkom Indonesia,board_independence_pct_trend,calibrated,no
+Telkom Indonesia,company,calibrated,no
+Telkom Indonesia,company_stage,calibrated,no
+Telkom Indonesia,controversy_flags_12mo,calibrated,no
+Telkom Indonesia,controversy_flags_e,calibrated,no
+Telkom Indonesia,controversy_flags_g,calibrated,no
+Telkom Indonesia,controversy_flags_s,calibrated,no
+Telkom Indonesia,controversy_intensity_e,calibrated,no
+Telkom Indonesia,controversy_intensity_g,calibrated,no
+Telkom Indonesia,controversy_intensity_s,calibrated,no
+Telkom Indonesia,country,calibrated,no
+Telkom Indonesia,data_source,calibrated,no
+Telkom Indonesia,diversity_women_pct,calibrated,no
+Telkom Indonesia,diversity_women_pct_trend,calibrated,no
+Telkom Indonesia,emissions_intensity,calibrated,no
+Telkom Indonesia,emissions_intensity_trend,calibrated,no
+Telkom Indonesia,employee_sentiment_trend,calibrated,no
+Telkom Indonesia,env_fines_12mo,calibrated,no
+Telkom Indonesia,esg_cagr_5yr,calibrated,no
+Telkom Indonesia,esg_e_cagr,calibrated,no
+Telkom Indonesia,esg_e_today,calibrated,no
+Telkom Indonesia,esg_g_cagr,calibrated,no
+Telkom Indonesia,esg_g_today,calibrated,no
+Telkom Indonesia,esg_s_cagr,calibrated,no
+Telkom Indonesia,esg_s_today,calibrated,no
+Telkom Indonesia,esg_score_5yr_ago,calibrated,no
+Telkom Indonesia,esg_score_today,calibrated,no
+Telkom Indonesia,exec_turnover_12mo,calibrated,no
+Telkom Indonesia,green_capex_pct,calibrated,no
+Telkom Indonesia,green_capex_pct_trend,calibrated,no
+Telkom Indonesia,hires_6mo,calibrated,no
+Telkom Indonesia,hires_growth,calibrated,no
+Telkom Indonesia,hires_per_m_rev,calibrated,no
+Telkom Indonesia,hires_prev_6mo,calibrated,no
+Telkom Indonesia,insider_sell_ratio,calibrated,no
+Telkom Indonesia,labour_controversy_12mo,calibrated,no
+Telkom Indonesia,litigation_actions_12mo,calibrated,no
+Telkom Indonesia,pb_ratio,calibrated,no
+Telkom Indonesia,pe_ratio,calibrated,no
+Telkom Indonesia,renewable_pct,calibrated,no
+Telkom Indonesia,renewable_pct_trend,calibrated,no
+Telkom Indonesia,rev_growth_yoy,calibrated,no
+Telkom Indonesia,revenue_usd_b,calibrated,no
+Telkom Indonesia,say_do_gap,calibrated,no
+Telkom Indonesia,sector,calibrated,no
+Telkom Indonesia,sentiment_score,calibrated,no
+Telkom Indonesia,sentiment_trend,calibrated,no
+Telkom Indonesia,stated_commitments,calibrated,no
+Telkom Indonesia,ticker,calibrated,no
+PTTEP,ai_earnings_mentions,calibrated,no
+PTTEP,ai_job_pct,calibrated,no
+PTTEP,ai_patent_count,calibrated,no
+PTTEP,board_independence_pct,calibrated,no
+PTTEP,board_independence_pct_trend,calibrated,no
+PTTEP,company,calibrated,no
+PTTEP,company_stage,calibrated,no
+PTTEP,controversy_flags_12mo,calibrated,no
+PTTEP,controversy_flags_e,calibrated,no
+PTTEP,controversy_flags_g,calibrated,no
+PTTEP,controversy_flags_s,calibrated,no
+PTTEP,controversy_intensity_e,calibrated,no
+PTTEP,controversy_intensity_g,calibrated,no
+PTTEP,controversy_intensity_s,calibrated,no
+PTTEP,country,calibrated,no
+PTTEP,data_source,calibrated,no
+PTTEP,diversity_women_pct,calibrated,no
+PTTEP,diversity_women_pct_trend,calibrated,no
+PTTEP,emissions_intensity,calibrated,no
+PTTEP,emissions_intensity_trend,calibrated,no
+PTTEP,employee_sentiment_trend,calibrated,no
+PTTEP,env_fines_12mo,calibrated,no
+PTTEP,esg_cagr_5yr,calibrated,no
+PTTEP,esg_e_cagr,calibrated,no
+PTTEP,esg_e_today,calibrated,no
+PTTEP,esg_g_cagr,calibrated,no
+PTTEP,esg_g_today,calibrated,no
+PTTEP,esg_s_cagr,calibrated,no
+PTTEP,esg_s_today,calibrated,no
+PTTEP,esg_score_5yr_ago,calibrated,no
+PTTEP,esg_score_today,calibrated,no
+PTTEP,exec_turnover_12mo,calibrated,no
+PTTEP,green_capex_pct,calibrated,no
+PTTEP,green_capex_pct_trend,calibrated,no
+PTTEP,hires_6mo,calibrated,no
+PTTEP,hires_growth,calibrated,no
+PTTEP,hires_per_m_rev,calibrated,no
+PTTEP,hires_prev_6mo,calibrated,no
+PTTEP,insider_sell_ratio,calibrated,no
+PTTEP,labour_controversy_12mo,calibrated,no
+PTTEP,litigation_actions_12mo,calibrated,no
+PTTEP,pb_ratio,calibrated,no
+PTTEP,pe_ratio,calibrated,no
+PTTEP,renewable_pct,calibrated,no
+PTTEP,renewable_pct_trend,calibrated,no
+PTTEP,rev_growth_yoy,calibrated,no
+PTTEP,revenue_usd_b,calibrated,no
+PTTEP,say_do_gap,calibrated,no
+PTTEP,sector,calibrated,no
+PTTEP,sentiment_score,calibrated,no
+PTTEP,sentiment_trend,calibrated,no
+PTTEP,stated_commitments,calibrated,no
+PTTEP,ticker,calibrated,no
+Genting Singapore,ai_earnings_mentions,calibrated,no
+Genting Singapore,ai_job_pct,calibrated,no
+Genting Singapore,ai_patent_count,calibrated,no
+Genting Singapore,board_independence_pct,calibrated,no
+Genting Singapore,board_independence_pct_trend,calibrated,no
+Genting Singapore,company,calibrated,no
+Genting Singapore,company_stage,calibrated,no
+Genting Singapore,controversy_flags_12mo,calibrated,no
+Genting Singapore,controversy_flags_e,calibrated,no
+Genting Singapore,controversy_flags_g,calibrated,no
+Genting Singapore,controversy_flags_s,calibrated,no
+Genting Singapore,controversy_intensity_e,calibrated,no
+Genting Singapore,controversy_intensity_g,calibrated,no
+Genting Singapore,controversy_intensity_s,calibrated,no
+Genting Singapore,country,calibrated,no
+Genting Singapore,data_source,calibrated,no
+Genting Singapore,diversity_women_pct,calibrated,no
+Genting Singapore,diversity_women_pct_trend,calibrated,no
+Genting Singapore,emissions_intensity,calibrated,no
+Genting Singapore,emissions_intensity_trend,calibrated,no
+Genting Singapore,employee_sentiment_trend,calibrated,no
+Genting Singapore,env_fines_12mo,calibrated,no
+Genting Singapore,esg_cagr_5yr,calibrated,no
+Genting Singapore,esg_e_cagr,calibrated,no
+Genting Singapore,esg_e_today,calibrated,no
+Genting Singapore,esg_g_cagr,calibrated,no
+Genting Singapore,esg_g_today,calibrated,no
+Genting Singapore,esg_s_cagr,calibrated,no
+Genting Singapore,esg_s_today,calibrated,no
+Genting Singapore,esg_score_5yr_ago,calibrated,no
+Genting Singapore,esg_score_today,calibrated,no
+Genting Singapore,exec_turnover_12mo,calibrated,no
+Genting Singapore,green_capex_pct,calibrated,no
+Genting Singapore,green_capex_pct_trend,calibrated,no
+Genting Singapore,hires_6mo,calibrated,no
+Genting Singapore,hires_growth,calibrated,no
+Genting Singapore,hires_per_m_rev,calibrated,no
+Genting Singapore,hires_prev_6mo,calibrated,no
+Genting Singapore,insider_sell_ratio,calibrated,no
+Genting Singapore,labour_controversy_12mo,calibrated,no
+Genting Singapore,litigation_actions_12mo,calibrated,no
+Genting Singapore,pb_ratio,calibrated,no
+Genting Singapore,pe_ratio,calibrated,no
+Genting Singapore,renewable_pct,calibrated,no
+Genting Singapore,renewable_pct_trend,calibrated,no
+Genting Singapore,rev_growth_yoy,calibrated,no
+Genting Singapore,revenue_usd_b,calibrated,no
+Genting Singapore,say_do_gap,calibrated,no
+Genting Singapore,sector,calibrated,no
+Genting Singapore,sentiment_score,calibrated,no
+Genting Singapore,sentiment_trend,calibrated,no
+Genting Singapore,stated_commitments,calibrated,no
+Genting Singapore,ticker,calibrated,no
+Top Glove,ai_earnings_mentions,calibrated,no
+Top Glove,ai_job_pct,calibrated,no
+Top Glove,ai_patent_count,calibrated,no
+Top Glove,board_independence_pct,calibrated,no
+Top Glove,board_independence_pct_trend,calibrated,no
+Top Glove,company,calibrated,no
+Top Glove,company_stage,calibrated,no
+Top Glove,controversy_flags_12mo,calibrated,no
+Top Glove,controversy_flags_e,calibrated,no
+Top Glove,controversy_flags_g,calibrated,no
+Top Glove,controversy_flags_s,calibrated,no
+Top Glove,controversy_intensity_e,calibrated,no
+Top Glove,controversy_intensity_g,calibrated,no
+Top Glove,controversy_intensity_s,calibrated,no
+Top Glove,country,calibrated,no
+Top Glove,data_source,calibrated,no
+Top Glove,diversity_women_pct,calibrated,no
+Top Glove,diversity_women_pct_trend,calibrated,no
+Top Glove,emissions_intensity,calibrated,no
+Top Glove,emissions_intensity_trend,calibrated,no
+Top Glove,employee_sentiment_trend,calibrated,no
+Top Glove,env_fines_12mo,calibrated,no
+Top Glove,esg_cagr_5yr,calibrated,no
+Top Glove,esg_e_cagr,calibrated,no
+Top Glove,esg_e_today,calibrated,no
+Top Glove,esg_g_cagr,calibrated,no
+Top Glove,esg_g_today,calibrated,no
+Top Glove,esg_s_cagr,calibrated,no
+Top Glove,esg_s_today,calibrated,no
+Top Glove,esg_score_5yr_ago,calibrated,no
+Top Glove,esg_score_today,calibrated,no
+Top Glove,exec_turnover_12mo,calibrated,no
+Top Glove,green_capex_pct,calibrated,no
+Top Glove,green_capex_pct_trend,calibrated,no
+Top Glove,hires_6mo,calibrated,no
+Top Glove,hires_growth,calibrated,no
+Top Glove,hires_per_m_rev,calibrated,no
+Top Glove,hires_prev_6mo,calibrated,no
+Top Glove,insider_sell_ratio,calibrated,no
+Top Glove,labour_controversy_12mo,calibrated,no
+Top Glove,litigation_actions_12mo,calibrated,no
+Top Glove,pb_ratio,calibrated,no
+Top Glove,pe_ratio,calibrated,no
+Top Glove,renewable_pct,calibrated,no
+Top Glove,renewable_pct_trend,calibrated,no
+Top Glove,rev_growth_yoy,calibrated,no
+Top Glove,revenue_usd_b,calibrated,no
+Top Glove,say_do_gap,calibrated,no
+Top Glove,sector,calibrated,no
+Top Glove,sentiment_score,calibrated,no
+Top Glove,sentiment_trend,calibrated,no
+Top Glove,stated_commitments,calibrated,no
+Top Glove,ticker,calibrated,no
+Golden Agri-Res.,ai_earnings_mentions,calibrated,no
+Golden Agri-Res.,ai_job_pct,calibrated,no
+Golden Agri-Res.,ai_patent_count,calibrated,no
+Golden Agri-Res.,board_independence_pct,calibrated,no
+Golden Agri-Res.,board_independence_pct_trend,calibrated,no
+Golden Agri-Res.,company,calibrated,no
+Golden Agri-Res.,company_stage,calibrated,no
+Golden Agri-Res.,controversy_flags_12mo,calibrated,no
+Golden Agri-Res.,controversy_flags_e,calibrated,no
+Golden Agri-Res.,controversy_flags_g,calibrated,no
+Golden Agri-Res.,controversy_flags_s,calibrated,no
+Golden Agri-Res.,controversy_intensity_e,calibrated,no
+Golden Agri-Res.,controversy_intensity_g,calibrated,no
+Golden Agri-Res.,controversy_intensity_s,calibrated,no
+Golden Agri-Res.,country,calibrated,no
+Golden Agri-Res.,data_source,calibrated,no
+Golden Agri-Res.,diversity_women_pct,calibrated,no
+Golden Agri-Res.,diversity_women_pct_trend,calibrated,no
+Golden Agri-Res.,emissions_intensity,calibrated,no
+Golden Agri-Res.,emissions_intensity_trend,calibrated,no
+Golden Agri-Res.,employee_sentiment_trend,calibrated,no
+Golden Agri-Res.,env_fines_12mo,calibrated,no
+Golden Agri-Res.,esg_cagr_5yr,calibrated,no
+Golden Agri-Res.,esg_e_cagr,calibrated,no
+Golden Agri-Res.,esg_e_today,calibrated,no
+Golden Agri-Res.,esg_g_cagr,calibrated,no
+Golden Agri-Res.,esg_g_today,calibrated,no
+Golden Agri-Res.,esg_s_cagr,calibrated,no
+Golden Agri-Res.,esg_s_today,calibrated,no
+Golden Agri-Res.,esg_score_5yr_ago,calibrated,no
+Golden Agri-Res.,esg_score_today,calibrated,no
+Golden Agri-Res.,exec_turnover_12mo,calibrated,no
+Golden Agri-Res.,green_capex_pct,calibrated,no
+Golden Agri-Res.,green_capex_pct_trend,calibrated,no
+Golden Agri-Res.,hires_6mo,calibrated,no
+Golden Agri-Res.,hires_growth,calibrated,no
+Golden Agri-Res.,hires_per_m_rev,calibrated,no
+Golden Agri-Res.,hires_prev_6mo,calibrated,no
+Golden Agri-Res.,insider_sell_ratio,calibrated,no
+Golden Agri-Res.,labour_controversy_12mo,calibrated,no
+Golden Agri-Res.,litigation_actions_12mo,calibrated,no
+Golden Agri-Res.,pb_ratio,calibrated,no
+Golden Agri-Res.,pe_ratio,calibrated,no
+Golden Agri-Res.,renewable_pct,calibrated,no
+Golden Agri-Res.,renewable_pct_trend,calibrated,no
+Golden Agri-Res.,rev_growth_yoy,calibrated,no
+Golden Agri-Res.,revenue_usd_b,calibrated,no
+Golden Agri-Res.,say_do_gap,calibrated,no
+Golden Agri-Res.,sector,calibrated,no
+Golden Agri-Res.,sentiment_score,calibrated,no
+Golden Agri-Res.,sentiment_trend,calibrated,no
+Golden Agri-Res.,stated_commitments,calibrated,no
+Golden Agri-Res.,ticker,calibrated,no
+First Resources,ai_earnings_mentions,calibrated,no
+First Resources,ai_job_pct,calibrated,no
+First Resources,ai_patent_count,calibrated,no
+First Resources,board_independence_pct,calibrated,no
+First Resources,board_independence_pct_trend,calibrated,no
+First Resources,company,calibrated,no
+First Resources,company_stage,calibrated,no
+First Resources,controversy_flags_12mo,calibrated,no
+First Resources,controversy_flags_e,calibrated,no
+First Resources,controversy_flags_g,calibrated,no
+First Resources,controversy_flags_s,calibrated,no
+First Resources,controversy_intensity_e,calibrated,no
+First Resources,controversy_intensity_g,calibrated,no
+First Resources,controversy_intensity_s,calibrated,no
+First Resources,country,calibrated,no
+First Resources,data_source,calibrated,no
+First Resources,diversity_women_pct,calibrated,no
+First Resources,diversity_women_pct_trend,calibrated,no
+First Resources,emissions_intensity,calibrated,no
+First Resources,emissions_intensity_trend,calibrated,no
+First Resources,employee_sentiment_trend,calibrated,no
+First Resources,env_fines_12mo,calibrated,no
+First Resources,esg_cagr_5yr,calibrated,no
+First Resources,esg_e_cagr,calibrated,no
+First Resources,esg_e_today,calibrated,no
+First Resources,esg_g_cagr,calibrated,no
+First Resources,esg_g_today,calibrated,no
+First Resources,esg_s_cagr,calibrated,no
+First Resources,esg_s_today,calibrated,no
+First Resources,esg_score_5yr_ago,calibrated,no
+First Resources,esg_score_today,calibrated,no
+First Resources,exec_turnover_12mo,calibrated,no
+First Resources,green_capex_pct,calibrated,no
+First Resources,green_capex_pct_trend,calibrated,no
+First Resources,hires_6mo,calibrated,no
+First Resources,hires_growth,calibrated,no
+First Resources,hires_per_m_rev,calibrated,no
+First Resources,hires_prev_6mo,calibrated,no
+First Resources,insider_sell_ratio,calibrated,no
+First Resources,labour_controversy_12mo,calibrated,no
+First Resources,litigation_actions_12mo,calibrated,no
+First Resources,pb_ratio,calibrated,no
+First Resources,pe_ratio,calibrated,no
+First Resources,renewable_pct,calibrated,no
+First Resources,renewable_pct_trend,calibrated,no
+First Resources,rev_growth_yoy,calibrated,no
+First Resources,revenue_usd_b,calibrated,no
+First Resources,say_do_gap,calibrated,no
+First Resources,sector,calibrated,no
+First Resources,sentiment_score,calibrated,no
+First Resources,sentiment_trend,calibrated,no
+First Resources,stated_commitments,calibrated,no
+First Resources,ticker,calibrated,no
+Bumi Resources,ai_earnings_mentions,calibrated,no
+Bumi Resources,ai_job_pct,calibrated,no
+Bumi Resources,ai_patent_count,calibrated,no
+Bumi Resources,board_independence_pct,calibrated,no
+Bumi Resources,board_independence_pct_trend,calibrated,no
+Bumi Resources,company,calibrated,no
+Bumi Resources,company_stage,calibrated,no
+Bumi Resources,controversy_flags_12mo,calibrated,no
+Bumi Resources,controversy_flags_e,calibrated,no
+Bumi Resources,controversy_flags_g,calibrated,no
+Bumi Resources,controversy_flags_s,calibrated,no
+Bumi Resources,controversy_intensity_e,calibrated,no
+Bumi Resources,controversy_intensity_g,calibrated,no
+Bumi Resources,controversy_intensity_s,calibrated,no
+Bumi Resources,country,calibrated,no
+Bumi Resources,data_source,calibrated,no
+Bumi Resources,diversity_women_pct,calibrated,no
+Bumi Resources,diversity_women_pct_trend,calibrated,no
+Bumi Resources,emissions_intensity,calibrated,no
+Bumi Resources,emissions_intensity_trend,calibrated,no
+Bumi Resources,employee_sentiment_trend,calibrated,no
+Bumi Resources,env_fines_12mo,calibrated,no
+Bumi Resources,esg_cagr_5yr,calibrated,no
+Bumi Resources,esg_e_cagr,calibrated,no
+Bumi Resources,esg_e_today,calibrated,no
+Bumi Resources,esg_g_cagr,calibrated,no
+Bumi Resources,esg_g_today,calibrated,no
+Bumi Resources,esg_s_cagr,calibrated,no
+Bumi Resources,esg_s_today,calibrated,no
+Bumi Resources,esg_score_5yr_ago,calibrated,no
+Bumi Resources,esg_score_today,calibrated,no
+Bumi Resources,exec_turnover_12mo,calibrated,no
+Bumi Resources,green_capex_pct,calibrated,no
+Bumi Resources,green_capex_pct_trend,calibrated,no
+Bumi Resources,hires_6mo,calibrated,no
+Bumi Resources,hires_growth,calibrated,no
+Bumi Resources,hires_per_m_rev,calibrated,no
+Bumi Resources,hires_prev_6mo,calibrated,no
+Bumi Resources,insider_sell_ratio,calibrated,no
+Bumi Resources,labour_controversy_12mo,calibrated,no
+Bumi Resources,litigation_actions_12mo,calibrated,no
+Bumi Resources,pb_ratio,calibrated,no
+Bumi Resources,pe_ratio,calibrated,no
+Bumi Resources,renewable_pct,calibrated,no
+Bumi Resources,renewable_pct_trend,calibrated,no
+Bumi Resources,rev_growth_yoy,calibrated,no
+Bumi Resources,revenue_usd_b,calibrated,no
+Bumi Resources,say_do_gap,calibrated,no
+Bumi Resources,sector,calibrated,no
+Bumi Resources,sentiment_score,calibrated,no
+Bumi Resources,sentiment_trend,calibrated,no
+Bumi Resources,stated_commitments,calibrated,no
+Bumi Resources,ticker,calibrated,no

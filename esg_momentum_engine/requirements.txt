@@ -1,0 +1,20 @@
+# ESG Momentum Engine 2.0 — dependencies
+
+# Core app + scoring (needed to run the demo)
+streamlit>=1.30
+plotly>=5.18
+pandas>=2.0
+
+# Live provider pull: python build_master_data.py --live
+# The providers in pipeline/providers/ use only the stdlib (urllib) EXCEPT yfin.py,
+# which needs yfinance. Everything else — Yahoo ESG, GDELT, Climate TRACE, Wikirate —
+# is a plain HTTP call, so the frozen demo path has no extra install at all.
+yfinance>=0.2.40
+openpyxl>=3.1
+feedparser>=6.0
+textblob>=0.17
+
+# Optional keys, read from the environment. Missing key = that column falls back
+# to its calibrated value and is tagged `calibrated` in data/provenance.csv.
+#   WIKIRATE_API_KEY   free, from your wikirate.org account page
+#   ESG_OFFLINE=1      force cache-only, never hit the network
