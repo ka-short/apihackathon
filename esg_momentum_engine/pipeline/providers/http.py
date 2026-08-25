@@ -1,4 +1,3 @@
-"""shared http layer for every live provider — cache, retry, never crash the build"""
 from __future__ import annotations
 import json
 import os

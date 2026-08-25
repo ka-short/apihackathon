@@ -40,16 +40,33 @@ def synth_emissions_intensity(sector: str, e_today: float) -> float:
 
 # saydo
 def say_do_gap(commit: int, e_cagr: float, env_fines: int,
-               emissions_trend: float | None) -> float:
+               emissions_trend: float | None,
+               fines_are_real: bool = False) -> tuple[float, str]:
     talk = min(1.0, commit / 12.0)
+
     proof = 0.0
-    proof += max(0.0, min(1.0, (e_cagr + 0.03) / 0.09)) * 0.45
-    proof += max(0.0, 1.0 - env_fines / 3.0) * 0.25
-    if emissions_trend is None:
-        proof += 0.15
+    external = 0
+
+    # own disclosure, capped
+    proof += max(0.0, min(1.0, (e_cagr + 0.03) / 0.09)) * 0.30
+
+    # external, news derived
+    if fines_are_real:
+        proof += max(0.0, 1.0 - env_fines / 3.0) * 0.35
+        external += 1
     else:
-        proof += max(0.0, min(1.0, (0.03 - emissions_trend) / 0.09)) * 0.30
-    return round(max(0.0, talk - proof), 3)
+        proof += 0.175
+
+    # external, satellite derived
+    if emissions_trend is None:
+        proof += 0.175
+    else:
+        proof += max(0.0, min(1.0, (0.03 - emissions_trend) / 0.09)) * 0.35
+        external += 1
+
+    confidence = ("verified" if external == 2 else
+                  "partial" if external == 1 else "unverified")
+    return round(max(0.0, talk - proof), 3), confidence
 
 
 # --------------------------------------------------------------------------- #
@@ -91,6 +108,11 @@ def pull_live(c: dict, row: dict) -> None:
             row.get(f"controversy_flags_{p}") or 0 for p in ("e", "s", "g"))
         row["env_fines_12mo"] = row.get("controversy_flags_e") or 0
         row["litigation_actions_12mo"] = row.get("controversy_flags_g") or 0
+        if g.get("talk") is not None:
+            row["stated_commitments"] = round(g["talk"] * 12, 1)
+            row["claim_articles_12mo"] = g.get("claim_articles")
+            row["claim_share"] = g.get("claim_share")
+            tag(c["company"], "stated_commitments", "gdelt")
         if g.get("sentiment_score") is not None:
             row["sentiment_score"] = g["sentiment_score"]
             row["sentiment_trend"] = g["sentiment_trend"]
@@ -157,7 +179,8 @@ FIELDNAMES = [
     "controversy_flags_12mo",
     "controversy_flags_e", "controversy_flags_s", "controversy_flags_g",
     "controversy_intensity_e", "controversy_intensity_s", "controversy_intensity_g",
-    "stated_commitments", "say_do_gap",
+    "stated_commitments", "claim_articles_12mo", "claim_share",
+    "say_do_gap", "say_do_confidence", "claims_source",
     "data_source",
 ]
 
@@ -189,7 +212,7 @@ def build_row(c: dict) -> dict:
 
         "revenue_usd_b": round(c["rev_b"], 2),
         "rev_growth_yoy": round(c["rev_g"], 3),
-        "pe_ratio": "", "pb_ratio": "",
+        "pe_ratio": c.get("pe") or "", "pb_ratio": c.get("pb") or "",
 
         "emissions_intensity": emis,
         "emissions_intensity_trend": emis_trend,
@@ -226,7 +249,10 @@ def build_row(c: dict) -> dict:
         "controversy_intensity_s": round(min(1.0, c["contro_s"] / 5.0), 3),
         "controversy_intensity_g": round(min(1.0, c["contro_g"] / 5.0), 3),
         "stated_commitments": c["commit"],
+        "claim_articles_12mo": "", "claim_share": "",
+        "claims_source": "hand-coded",
         "say_do_gap": 0.0,
+        "say_do_confidence": "unverified",
         "data_source": "real-anchor (calibrated)" if c["anchor"] else "illustrative (calibrated)",
     }
     for col in FIELDNAMES:
@@ -261,9 +287,16 @@ def main() -> None:
                     row.get(f"controversy_flags_{p}") or 0 for p in ("e", "s", "g"))
             except Exception as e:
                 print(f"  ! live pull failed for {c['company']}: {e}", file=sys.stderr)
-        row["say_do_gap"] = say_do_gap(
-            row["stated_commitments"], row["esg_e_cagr"],
-            row["env_fines_12mo"], row["emissions_intensity_trend"])
+        prov = PROVENANCE.get(c["company"], {})
+        row["claims_source"] = ("gdelt-news"
+                                if prov.get("stated_commitments") == "gdelt"
+                                else "hand-coded")
+        emis_real = prov.get("emissions_intensity_trend") == "climate-trace"
+        fines_real = prov.get("controversy_flags_e") == "gdelt"
+        row["say_do_gap"], row["say_do_confidence"] = say_do_gap(
+            row["stated_commitments"], row["esg_e_cagr"], row["env_fines_12mo"],
+            row["emissions_intensity_trend"] if emis_real else None,
+            fines_are_real=fines_real)
         rows.append(row)
 
     master = os.path.join(out_dir, "master_data.csv")

@@ -70,6 +70,8 @@ class Company:
     pillar_scores: dict = field(default_factory=dict)
     pillar_weights: dict = field(default_factory=dict)
     say_do_gap: float = 0.0
+    say_do_confidence: str = "unverified"
+    value_gap: float | None = None
     momentum_score: float = 0.0
     quadrant: str = ""
 
@@ -109,6 +111,7 @@ def load_master(csv_path: str) -> list[Company]:
                 controversy_flags_12mo=int(_f(r.get("controversy_flags_12mo"))),
                 data_source=r.get("data_source", ""),
                 say_do_gap=_f(r.get("say_do_gap")),
+                say_do_confidence=r.get("say_do_confidence", "unverified"),
                 raw={k: r[k] for k in r},
             ))
     return rows
@@ -235,6 +238,34 @@ def compute_momentum(companies: list[Company], weights: dict | None = None) -> N
 # 4. QUADRANTS AND BENCHMARKS                                                  #
 # --------------------------------------------------------------------------- #
 
+# percentile
+def _pct_rank(values: list[float], v: float) -> float:
+    vals = sorted(values)
+    if not vals:
+        return 0.5
+    below = sum(1 for x in vals if x < v)
+    return below / len(vals)
+
+
+# cheapness
+def compute_value_gap(companies: list[Company]) -> None:
+    # momentum percentile minus valuation percentile. High = improving fast and
+    # still cheap, which is the mentors' "overlooked names" screen.
+    priced = [c for c in companies if _f(c.raw.get("pb_ratio")) > 0]
+    if len(priced) < 5:
+        for c in companies:
+            c.value_gap = None
+        return
+    pbs = [_f(c.raw.get("pb_ratio")) for c in priced]
+    moms = [c.momentum_score for c in companies]
+    for c in companies:
+        pb = _f(c.raw.get("pb_ratio"))
+        if pb <= 0:
+            c.value_gap = None
+            continue
+        c.value_gap = round(_pct_rank(moms, c.momentum_score) - _pct_rank(pbs, pb), 3)
+
+
 # median
 def _median(values: list[float]) -> float:
     s = sorted(values)
@@ -309,6 +340,7 @@ def score_universe(csv_path: str | None = None, weights: dict | None = None,
     normalize(companies, mode)
     compute_pillars(companies)
     compute_momentum(companies, weights)
+    compute_value_gap(companies)
     thresholds = assign_quadrants(companies, esg_threshold, momentum_threshold)
     companies.sort(key=lambda c: c.momentum_score, reverse=True)
     return companies, thresholds
@@ -320,7 +352,9 @@ def write_scores(companies: list[Company], path: str, mode: str) -> None:
             "company_stage", "norm_mode", "esg_score_today",
             "e_momentum", "s_momentum", "g_momentum", "i_momentum",
             "w_E", "w_S", "w_G", "w_I",
-            "say_do_gap", "momentum_score", "quadrant", "weight_rationale"]
+            "say_do_gap", "say_do_confidence", "value_gap",
+            "momentum_score", "quadrant",
+            "weight_rationale"]
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
@@ -335,7 +369,10 @@ def write_scores(companies: list[Company], path: str, mode: str) -> None:
                 "g_momentum": c.pillar_scores["G"], "i_momentum": c.pillar_scores["I"],
                 "w_E": c.pillar_weights["E"], "w_S": c.pillar_weights["S"],
                 "w_G": c.pillar_weights["G"], "w_I": c.pillar_weights["I"],
-                "say_do_gap": c.say_do_gap, "momentum_score": c.momentum_score,
+                "say_do_gap": c.say_do_gap,
+                "say_do_confidence": c.say_do_confidence,
+                "value_gap": c.value_gap,
+                "momentum_score": c.momentum_score,
                 "quadrant": c.quadrant, "weight_rationale": c.why_weights(),
             })
 

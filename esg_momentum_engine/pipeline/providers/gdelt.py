@@ -9,6 +9,20 @@ WINDOW = "12months"
 POLITE_SLEEP = 1.2
 
 # pillars
+# claims
+# the TALK side of the say-do gap. These are the phrases companies use when they
+# announce an ESG commitment, so counting them measures how loudly a company is
+# promising - independent of whether it delivers.
+CLAIM_TERMS = [
+    "net zero", "carbon neutral", "carbon neutrality", "net-zero target",
+    "science-based target", "emissions target", "emission reduction target",
+    "sustainability commitment", "ESG commitment", "sustainability pledge",
+    "pledges to", "commits to reduce", "renewable energy target",
+    "sustainability roadmap", "decarbonisation plan", "decarbonization plan",
+    "green financing target", "sustainability-linked",
+]
+
+# pillars
 PILLAR_TERMS = {
     "e": {
         "themes": ["ENV_OIL", "ENV_MINING", "ENV_CLIMATECHANGE", "ENV_COAL",
@@ -43,6 +57,43 @@ def _q(company: str, pillar: str | None) -> str:
     themes = " OR ".join(f"theme:{x}" for x in t["themes"])
     words = " OR ".join(f'"{w}"' for w in t["words"])
     return f"{name} ({themes} OR {words})"
+
+
+# claims
+def claims(company: str, timespan: str = WINDOW) -> dict:
+    words = " OR ".join(f'"{w}"' for w in CLAIM_TERMS)
+    q = f'"{company}" ({words})'
+    try:
+        claim = tone_chart(q, timespan)
+        overall = tone_chart(_q(company, None), timespan)
+    except ProviderError:
+        return {"claim_articles": None, "claim_share": None, "talk": None}
+
+    share = (claim["total"] / overall["total"]) if overall["total"] else 0.0
+    # blend volume with share so a giant with huge coverage does not
+    # automatically out-talk a small company that promises constantly
+    talk = 0.6 * min(1.0, claim["total"] / 25.0) + 0.4 * min(1.0, share / 0.06)
+    return {
+        "claim_articles": claim["total"],
+        "total_articles": overall["total"],
+        "claim_share": round(share, 4),
+        "talk": round(min(1.0, talk), 3),
+        "evidence_claims": examples_positive(q, 3, timespan),
+    }
+
+
+# pledges
+def examples_positive(query: str, n: int = 3, timespan: str = WINDOW) -> list[dict]:
+    try:
+        data = get_json(BASE, {"query": query, "mode": "artlist",
+                               "maxrecords": min(n, 250), "timespan": timespan,
+                               "sort": "hybridrel", "format": "json"},
+                        cache_hours=72)
+    except ProviderError:
+        return []
+    return [{"title": a.get("title"), "url": a.get("url"),
+             "domain": a.get("domain"), "date": a.get("seendate")}
+            for a in (data.get("articles") or [])[:n]]
 
 
 # histogram
@@ -125,6 +176,7 @@ def fetch(company: str, with_examples: bool = True) -> dict:
             out[f"evidence_{pillar}"] = examples(_q(company, pillar), 3)
         time.sleep(POLITE_SLEEP)
     out.update(tone_trend(company))
+    out.update(claims(company))
     out["ok"] = got > 0
     return out
 
